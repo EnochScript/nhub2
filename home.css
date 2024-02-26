@@ -1,0 +1,1109 @@
+header {
+    display: flex;
+    padding: 0.1%;
+    align-items: center;
+}
+ul {
+    display: flex;
+    list-style: none;
+    margin-left: 1 rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(88, 86, 86);
+}
+li {
+    margin-right: 8%;
+}
+#logo{
+    margin-right: 30%;
+    margin-left: 5%;
+}
+#circle{
+    background-color: orangered;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 18%;
+}
+#donate{
+    background-color: orangered;
+    color: white;
+   padding-top: 12%;
+   padding-bottom: 12%;
+   padding-left: 10%;
+   padding-right: 10%;
+    border-radius: 5px;
+}
+#hub {
+    width: 100%;
+    height: 450px;
+}
+.link:hover {
+    color: orangered;
+}
+#donate:hover{
+    background-color: blueviolet;
+}
+.container1 {
+    position: relative;
+    width: 100%;  
+}
+#back_img{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    opacity: 95%;
+}
+#IMGtext {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:xx-large;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 8%;
+    
+}
+#about_us {
+    position: absolute;
+    margin-top: 25%;
+    left: 45%;
+    background-color: rgb(218, 90, 43);
+    color: white;
+    padding-left: 2.8%;
+    padding-right: 2.8%;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: normal;
+    transition: .5s;
+}
+#about_us::before{
+    content: url(Vector_1_gjwxef.png);
+    position: relative;
+    left: -10%;
+    padding-top: 5%;
+    
+}
+#about_us:hover {
+    background-color: blueviolet;
+    font-weight: normal;
+    transform: scale(1.1);
+
+}
+.container2 {
+    display: flex;
+    margin-top: 42%;
+    
+}   
+.container3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(88, 86, 86);
+    font-weight: normal;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+#AUS{
+    background-color: lightsalmon;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    color:orangered;
+    border-radius: 5px;
+}
+#hub2 {
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 70%;
+    height: 90%;
+    border: 10px solid;
+    border-color: orangered;
+}
+.container4 {
+    position: relative;
+    display: flex;
+    margin-top: 10%;
+    padding-left: 10%;
+    column-gap: 0.1%;
+    padding-right: 10%;
+
+}
+#innovation {
+    width: 90%;
+    height: 85%;
+}
+#community {
+    width: 90%;
+    height: 85%;
+
+}
+#growth{
+    width: 85%;
+    height: 85%;
+}
+.text1{
+    position: absolute;
+    top: 35%;
+    left: 17%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: white;
+    transition: 0.7s;
+}
+.text2{
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: white;
+    transition: 0.7s;
+}
+.text3{
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: white;
+    transition: 0.7s;
+}
+.container4 {
+    position: relative; /* Allow absolute positioning for child elements */
+  }
+  
+  .Addtext1 {
+    display: none; /* Initially hidden */
+    position: absolute; /* Position over the image */
+    top: 20%; /* Adjust starting position as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent background */
+    color: white;
+    font-size: 14px; /* Adjust font size as needed */
+  }
+  .Addtext2 {
+    display: none; /* Initially hidden */
+    position: absolute;
+    top: 20%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent background */
+    color: white;
+    font-size: 14px;
+  }
+  .Addtext3 {
+    display: none; /* Initially hidden */
+    position: absolute; /* Position over the image */
+    top: 20%; /* Adjust starting position as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent background */
+    color: white;
+    font-size: 14px; /* Adjust font size as needed */
+  }
+  .innotext:hover .text1 {
+    top: 10%; /* Move existing text up on hover */
+  }
+  .commtext:hover .text2 {
+    top: 10%; /* Move existing text up on hover */
+  }
+  .grotext:hover .text3 {
+    top: 10%; /* Move existing text up on hover */
+  }
+  
+  .innotext:hover .Addtext1 {
+    display: block; /* Show additional text on hover */
+    top: 40%; /* Adjust final position of additional text on hover */
+    left:22%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .commtext:hover .Addtext2 {
+    display: block; /* Show additional text on hover */
+    top: 40%; /* Adjust final position of additional text on hover */
+    left: 48%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .grotext:hover .Addtext3 {
+    display: block; /* Show additional text on hover */
+    top: 40%; /* Adjust final position of additional text on hover */
+    left: 74%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+.container5{
+    margin-top: 8%;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: normal;
+color: rgb(88, 86, 86);
+  }
+  .container6{
+    position: relative;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 20% 20%;
+    row-gap: 10%;
+    column-gap: 10%;
+    justify-content: center;
+    padding-top: 10%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(88, 86, 86);
+  }
+.box1{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 5px 12px rgb(228, 225, 225);
+}
+.box2{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 5px 12px rgb(228, 225, 225);
+}
+.box3{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 5px 12px rgb(228, 225, 225);
+}
+.box4{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin-top: 40%;
+    box-shadow: 0px 5px 12px rgb(228, 225, 225);
+}
+.box5{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin-top: 40%;
+    box-shadow: 0px 5px 12px rgb(228, 225, 225);
+}
+.box6{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin-top: 40%;
+    box-shadow: 0px 5px 12px rgb(228, 225, 225);
+}
+#placeher{
+    width: 15%;
+    height: 15%;
+    margin-top: 30%;
+    margin-left: 5%;
+    transition: 0.7s;
+}
+#namb{
+    width: 15%;
+    height: 15%;
+    margin-top: 30%;
+    margin-left: 5%;
+    transition: 0.7s;
+}
+#kids{
+    width: 15%;
+    height: 15%;
+    margin-top: 30%;
+    margin-left: 3%;
+    transition: 0.7s;
+}
+#rural{
+    width: 15%;
+    height: 15%;
+    margin-top: 30%;
+    margin-left: 5%;
+    transition: 0.7s;
+}
+#emerge{
+    width: 15%;
+    height: 15%;
+    margin-top: 30%;
+    margin-left: 5%;
+    transition: 0.7s;
+}
+#training{
+    width: 15%;
+    height: 15%;
+    margin-top: 30%;
+    margin-left: 5%;
+    transition: 0.7s;
+}
+.ptext{
+    font-size: x-large;
+    font-weight: normal;
+    transition: 0.7s;
+}
+.ntext{
+    font-size: x-large;
+    font-weight: normal;
+    transition: 0.7s;
+}
+.ktext{
+    font-size: x-large;
+    font-weight: normal;
+    transition: 0.7s;
+}
+.rtext{
+    font-size:x-large;
+    font-weight: normal;
+    transition: 0.7s;
+}
+.etext{
+    
+    font-size: x-large;
+    font-weight: normal;
+    transition: 0.7s;
+}
+.ttext{
+    
+    font-size: x-large;
+    font-weight: normal;
+    transition: 0.7s;
+}
+.Addptext{
+    display: none; /* Initially hidden */
+    position: absolute; /* Position over the image */
+    top: 20%; /* Adjust starting position as needed */
+    left: 21%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    color: rgb(88, 86, 86);
+    font-size: 14px; /* Adjust font size as needed */
+}
+.Addntext{
+    display: none; /* Initially hidden */
+    position: absolute; /* Position over the image */
+    top: 20%; /* Adjust starting position as needed */
+    left: 21%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    color: rgb(88, 86, 86);
+    font-size: 14px; /* Adjust font size as needed */
+    transition: top 0.3s ease-in-out; /* Smooth transition of top position */
+}
+.Addktext{
+    display: none; /* Initially hidden */
+    position: absolute; /* Position over the image */
+    top: 20%; /* Adjust starting position as needed */
+    left: 21%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    color: rgb(88, 86, 86);
+    font-size: 13px; /* Adjust font size as needed */
+}
+.Addrtext{
+    display: none; /* Initially hidden */
+    position: absolute; /* Position over the image */
+    top: 20%; /* Adjust starting position as needed */
+    left: 21%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    color: rgb(88, 86, 86);
+    font-size: 14px; /* Adjust font size as needed */
+}
+.Addetext{
+    display: none; /* Initially hidden */
+    position: absolute; /* Position over the image */
+    top: 20%; /* Adjust starting position as needed */
+    left: 21%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    color: rgb(88, 86, 86);
+    font-size: 14px; /* Adjust font size as needed */
+}
+.Addttext{
+    display: none; /* Initially hidden */
+    position: absolute; /* Position over the image */
+    top: 20%; /* Adjust starting position as needed */
+    left: 21%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    color: rgb(88, 86, 86);
+    font-size: 14px; /* Adjust font size as needed */
+
+}
+.box1:hover .ptext {
+    margin-top: 3%; /* Move existing text up on hover */
+  }
+  .box1:hover #placeher {
+    margin-top: 3%; /* Move existing text up on hover */
+  }
+  .box2:hover .ntext {
+    margin-top: 3%; /* Move existing text up on hover */
+  }
+  .box2:hover #namb{
+    margin-top: 3%; /* Move existing text up on hover */
+  }
+  .box3:hover .ktext {
+    margin-top: 3%; /* Move existing text up on hover */
+  }
+  .box3:hover #kids{
+    margin-top: 3%;/* Move existing text up on hover */
+  }
+  .box4:hover .rtext{
+    margin-top: 3%; /* Move existing text up on hover */
+  }
+  .box4:hover #rural {
+    margin-top: 3%; /* Move existing text up on hover */
+  }
+  .box5:hover .etext {
+    margin-top: 3%; /* Move existing text up on hover */
+  }
+  .box5:hover #emerge{
+    margin-top: 3%;/* Move existing text up on hover */
+  }
+  .box6:hover .ttext {
+    margin-top: 3%; /* Move existing text up on hover */
+  }
+  .box6:hover #training{
+    margin-top: 3%;/* Move existing text up on hover */
+  }
+  
+  .box1:hover .Addptext{
+    display: block; /* Show additional text on hover */
+    top: 35%; /* Adjust final position of additional text on hover */
+  }
+  .box2:hover .Addntext{
+    display: block; /* Show additional text on hover */
+    top: 36%; /* Adjust final position of additional text on hover */
+    left: 51%;
+  }
+  .box3:hover .Addktext{
+    display: block; /* Show additional text on hover */
+    top: 36%; /* Adjust final position of additional text on hover */
+    left: 82%;
+  }
+  .box4:hover .Addrtext{
+    display: block; /* Show additional text on hover */
+  margin-top: 35%; /* Adjust final position of additional text on hover */
+  left:22% ;
+  }
+  .box5:hover .Addetext{
+    display: block; /* Show additional text on hover */
+    margin-top: 35%;/* Adjust final position of additional text on hover */
+    left: 52%;
+  }
+  .box6:hover .Addttext{
+    display: block; /* Show additional text on hover */
+    margin-top: 35%;/* Adjust final position of additional text on hover */
+    left: 82%;
+  }
+  .container7{
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: normal;
+color: rgb(88, 86, 86);
+  }
+.container8{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 5%;
+}
+.internship{
+    background-color: white;
+    width: 30%;
+    height: 600px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+}
+.placeher2{
+    background-color: rgb(250, 87, 28);
+    width: 30%;
+    height: 600px;
+    border-radius: 10px;
+}
+.upskill{
+    background-color: white;
+    width: 30%;
+    height: 600px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+}
+.note1{
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(88, 86, 86);
+}
+.note2{
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+.note3{
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(88, 86, 86);
+}
+.para1{
+    font-size: medium;                                                                                                                                                                                                  
+    font-weight: normal;
+}
+.list2{
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    /* flex-direction: column; */
+    height: 40%;
+    width: 90%;
+    margin-left: 5%;
+}
+.list2 li{
+    padding-left: 24px;
+    position: relative;
+}
+.list2 li.comp::before{
+    content: url('red-check-mark-validation-tick-16234.png');
+    position: absolute;
+    left: 0;
+}
+.para2{
+    color: white;
+}
+.list3{
+    list-style-type: none;
+    padding: 0;
+    padding-top: 10%;
+    display: grid;
+    height: 40%;
+    width: 90%;
+    margin-left: 5%;
+    color: white;
+}
+.list3 li{
+    padding-left: 24px;
+    position: relative;
+}
+.list3 li.comp::before{
+    content: url('orange-check-mark-verified-circle-16225.png');
+    position: absolute;
+    left: 0;
+}
+.list4{
+    list-style-type: none;
+    padding: 0;
+    padding-top: 15%;
+    display: grid;
+    height: 40%;
+    width: 90%;
+    margin-left: 5%;
+    color: black;
+    text-align: justify;
+}
+.list4 li{
+    padding-left: 24px;
+    position: relative;
+}
+.list4 li.comp::before{
+    content: url('red-check-mark-validation-tick-16234.png');
+    position: absolute;
+    right: 95%;
+
+}
+#internship3{
+    position: absolute;
+    background-color: orangered;
+    color: white;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   padding-left: 1%;
+   padding-right: 1%;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-top: 2%;
+    left: 12%;
+}
+#placeher3{
+    position: absolute;
+    background-color: white;
+    color: orangered;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 5px;
+    font-weight: normal;
+    transition: .5s;
+    margin-top: 2%;
+    left: 43%;
+}
+#upskill3{
+    position: absolute;
+    background-color: orangered;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 5px;
+    font-weight: normal;
+    transition: .5s;
+    margin-top: 3.5%;
+    right: 12%;
+}
+#internship3:hover{
+background-color: blueviolet;
+font-weight: normal;
+transform: scale(1.1);
+}
+#placeher3:hover{
+background-color: blueviolet;
+color: white;
+font-weight: normal;
+transform: scale(1.1);
+}
+#upskill3:hover{
+background-color: blueviolet;
+font-weight: normal;
+transform: scale(1.1);
+}
+#view{
+    position: absolute;
+    background-color: orangered;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 5px;
+    font-weight: normal;
+    transition: .5s;
+    margin-top: 3.5%;
+    left: 39%;
+    margin-top: 5%;
+}
+#view:hover{
+background-color: blueviolet;
+font-weight: normal;
+transform: scale(1.1);
+}
+.container9{
+    margin-top: 20%;
+    background-color: orangered;
+    height: 200px;
+    width: 1300px;
+    padding-top: 3%;
+    padding-left: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.list5{
+    color: white;
+    gap: 7%;
+}
+.l1{
+    font-size: x-large;
+    font-weight: 600;
+}
+.l2{
+    font-size: small;
+}
+.meet_team{
+    margin-top: 8%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: normal;
+color: rgb(88, 86, 86);
+}
+.container10{
+    position: relative;
+    display: flex;
+    column-gap: 5%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+}
+#mr_eric{
+    width: 90%;
+    transition: 0.7s;
+}
+#mr_bash{
+    width: 75%;
+}
+#mr_nathan{
+    width: 90%;
+}
+.Addstuff1{
+    position: absolute;
+    top: 40%;
+    left: 9%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: white;
+    transform: matrix(-50% -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease-in-out;
+}
+.Addstuff2{
+    position: absolute;
+    top: 40%;
+    left: 44%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: white;
+    transform: matrix(-50% -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease-in-out;
+
+}
+.Addstuff3{
+    position: absolute;
+    top: 40%;
+    left: 74%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: white;
+    transform: matrix(-50% -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease-in-out;
+}
+.shadow1{
+    position: absolute;
+    background-color: black;
+    width:303px;
+    height: 305px;
+    margin-top: -23%;
+    margin-left:1.4% ;
+    transform: matrix(-50% -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.7s ease-in-out;
+}
+.shadow2{
+    position: absolute;
+    background-color: black;
+    width:301px;
+    height: 300px;
+    margin-top: -22.7%;
+    margin-left:3.8% ;
+    transform: matrix(-50% -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.7s ease-in-out;
+    }
+.shadow3{
+    position: absolute;
+    background-color: black;
+    width:303px;
+    height: 305px;
+    margin-left:1.4% ;
+    margin-top: -23.1%;
+    transform: matrix(-50% -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.7s ease-in-out;
+}
+.peg1:hover .Addstuff1{
+opacity: 1;
+visibility: visible;
+}
+.peg1:hover .shadow1{
+opacity: 50%;
+visibility: visible;
+}
+.peg2:hover .Addstuff2{
+opacity: 1;
+visibility: visible;
+}
+.peg2:hover .shadow2{
+opacity: 50%;
+visibility: visible;
+}
+.peg3:hover .Addstuff3{
+opacity: 1;
+visibility: visible;
+}
+.peg3:hover .shadow3{
+opacity: 70%;
+visibility: visible;
+}
+#members{
+    position: absolute;
+    background-color: orangered;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 5px;
+    font-weight: normal;
+    transition: .5s;
+    margin-top: 3.5%;
+    left: 41%;
+    margin-top: 5%;
+}
+#members:hover{
+    background-color: blueviolet;
+    font-weight: normal;
+    transform: scale(1.1);
+    }
+    .latest_blogs{
+    margin-top: 15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    color: rgb(88, 86, 86);
+    justify-content: center;
+    }
+.container11{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 5%;
+    margin-bottom: 8%;
+}
+.first{
+    background-color: white;
+    padding-top: 3%;
+    width: 30%;
+    height: 500px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+}
+.second{
+    background-color: white;
+    padding-top: 3%;
+    width: 30%;
+    height: 500px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+}
+.third{
+    background-color: white;
+    padding-top: 3%;
+    width: 30%;
+    height: 500px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+}
+.ui{
+    text-align: justify;
+    padding-left: 5%;
+    font-size: small;
+}
+.notex1{
+    text-align: justify;
+    padding-left: 5%;
+    font-size: larger;
+    font-weight: normal;
+}
+#read_more{
+    background-color: orangered;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-left: -68%;
+    top: 10%;
+}
+#read_more:hover{
+    background-color: blueviolet;
+}
+.viewAll{
+    position: relative;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -4%;
+    width: 140px;
+    height: 40px;
+    border: 1px solid;
+    border-color: orangered;
+    font-weight: normal;
+    transition: .5s;
+    margin-left: 45%;
+}
+.view_all{
+    position: relative;
+    color: orangered;
+    margin-left: 25%;
+    margin-top: 5%;
+
+}
+#arrow{
+    display: none;
+    position: absolute;
+    margin-left: 70%;
+    margin-top: -25%;
+}
+.viewAll:hover .view_all{
+    margin-left: -20%;
+}
+.viewAll:hover #arrow{
+    display: block;
+}
+.End_div{
+    position: relative;
+    background-color: black;
+    height: 300px;
+    margin-top: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tgs{
+    position: relative;
+    display: flex;
+    gap: 18%;
+    padding-left: 0%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    justify-content: left;
+}
+.LASTX{
+    display: grid;
+    row-gap: 10%;
+    width: 170px;
+    text-align: justify;
+}
+.LASTY{
+    display: grid;
+    row-gap: 10%;
+    text-align: justify;
+    width:400px;
+}
+.LASTZ{
+    display: grid;
+    row-gap: 15%;
+    width: 170px;
+    text-align: justify;
+
+}.Topic{
+    padding-bottom: 2%;
+}
+.rights{
+    display: flex;
+    justify-content: center;
+    gap: 0.3%;
+    font-size: small;
+}
+.LASTY li{
+    position: relative;
+    padding-left: 15px;
+}
+.LASTY li.listB1::before{
+    content: url(vector3_wn5f1n.png);
+    position: absolute;
+    left: -5%;
+}
+.LASTY li{
+    position: relative;
+    padding-left: 15px;
+}
+.LASTY li.listB2::before{
+    content: url(vector2_syc7vh.png);
+    position: absolute;
+    left: -5%;
+}
+.LASTY li{
+    position: relative;
+    padding-left: 15px;
+}
+.LASTY li.listB3::before{
+    content: url(call_qlcbut.png);
+    position: absolute;
+    left: -5%;
+}
+.LASTZ li{
+    position: relative;
+    padding-left: 10px;
+}
+.LASTZ li.listC1::before{
+    content: url(facebook.png);
+    position: absolute;
+    left: -10%;
+}
+.LASTZ li{
+    position: relative;
+    padding-left: 10px;
+}
+.LASTZ li.listC2::before{
+    content: url(twitter.png);
+    position: absolute;
+    left: -10%;
+}
+.LASTZ li{
+    position: relative;
+    padding-left: 10px;
+}
+.LASTZ li.listC3::before{
+    content: url(Vector_5_bvtror.png);
+    position: absolute;
+    left: -10%;
+}
+.LASTZ li{
+    position: relative;
+    padding-left: 10px;
+}
+.LASTZ li.listC4::before{
+    content: url(Vector_6_ftlpj1.png);
+    position: absolute;
+    left: -10%;
+}
+.nhubLink{
+    color: orangered;
+}
+.listA1:hover{
+    color: orangered;
+}
+.listA2:hover{
+    color: orangered;
+}
+.listA3:hover{
+    color: orangered;
+}
+.listA4:hover{
+    color: orangered;
+}
+.listB1:hover{
+    color: orangered;
+}
+.listB2:hover{
+    color: orangered;
+}
+.listB3:hover{
+    color: orangered;
+}
+.listC1:hover{
+    color: orangered;
+}
+.listC2:hover{
+    color: orangered;
+}
+.listC3:hover{
+    color: orangered;
+}
+.listC4:hover{
+    color: orangered;
+}
+
+
+
