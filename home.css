@@ -12,6 +12,7 @@ ul {
 }
 li {
     margin-right: 8%;
+    cursor: pointer;
 }
 #logo{
     margin-right: 30%;
@@ -79,6 +80,7 @@ li {
     font-size: larger;
     font-weight: normal;
     transition: .5s;
+    cursor: pointer;
 }
 #about_us::before{
     content: url(Vector_1_gjwxef.png);
@@ -633,6 +635,7 @@ color: rgb(88, 86, 86);
     transition: 0.5s;
     margin-top: 2%;
     left: 12%;
+    cursor: pointer;
 }
 #placeher3{
     position: absolute;
@@ -647,6 +650,7 @@ color: rgb(88, 86, 86);
     transition: .5s;
     margin-top: 2%;
     left: 43%;
+    cursor: pointer;
 }
 #upskill3{
     position: absolute;
@@ -661,6 +665,7 @@ color: rgb(88, 86, 86);
     transition: .5s;
     margin-top: 3.5%;
     right: 12%;
+    cursor: pointer;
 }
 #internship3:hover{
 background-color: blueviolet;
@@ -693,6 +698,7 @@ transform: scale(1.1);
     margin-top: 3.5%;
     left: 39%;
     margin-top: 5%;
+    cursor: pointer;
 }
 #view:hover{
 background-color: blueviolet;
@@ -855,6 +861,7 @@ visibility: visible;
     margin-top: 3.5%;
     left: 41%;
     margin-top: 5%;
+    cursor: pointer;
 }
 #members:hover{
     background-color: blueviolet;
@@ -925,6 +932,7 @@ visibility: visible;
     transition: 0.5s;
     margin-left: -68%;
     top: 10%;
+    cursor: pointer;
 }
 #read_more:hover{
     background-color: blueviolet;
@@ -941,6 +949,7 @@ visibility: visible;
     font-weight: normal;
     transition: .5s;
     margin-left: 45%;
+    cursor: pointer;
 }
 .view_all{
     position: relative;
